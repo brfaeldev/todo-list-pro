@@ -1,0 +1,8 @@
+export function App() {
+  return (
+    <div>
+      <h1>Olá, Mundo!</h1>
+      <p>Meu sistema React funcionando!</p>
+    </div>
+  )
+}

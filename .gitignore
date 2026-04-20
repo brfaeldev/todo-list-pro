@@ -1,0 +1,26 @@
+# Dependências do Node
+node_modules/
+
+# Arquivos de ambiente (Segurança máxima)
+.env
+.env.*
+!.env.example
+
+# Banco de dados local do Prisma
+# (Não queremos enviar o seu banco SQLite pro GitHub)
+prisma/*.db
+prisma/*.db-journal
+
+# Pastas de build do Vite
+dist/
+dist-ssr/
+build/
+
+# Logs de erro do NPM
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Lixo do Sistema Operacional (Windows/Mac)
+.DS_Store
+Thumbs.db
